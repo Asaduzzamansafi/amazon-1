@@ -24,8 +24,8 @@ nav a{
 }
 /* sell-on-amazon */
 .sell-on-amazon{
-    padding-top: 40px;
-    height: 120px;
+    padding-top: 30px;
+    height: 90px;
     display: flex;
     justify-content: space-around;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -47,7 +47,52 @@ nav a{
     background-color: #ff9900;
     border: none;
 }
-
+/* Become an Amazon seller */
+.become-an-seller{
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+}
+.become-an-seller-text{
+    margin: 100px 0 0 120px;
+}
+.become-an-seller h1{
+    width: 700px;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #232f3E;
+    font-weight: 800;
+}
+.become-an-seller h6{
+    width: 445px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #232f3E;
+    font-weight: 400;
+    margin: 30px 0;
+}
+.become-an-seller-btn{
+    padding: 10px 22px;
+    font-size: 24px;
+    color: #232f3E;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 100px;
+    font-weight: 700;
+    background-color: #ff9900;
+    border: none;
+    margin-bottom: 10px;
+}
+.become-an-seller-img{
+    margin: 40px 0 0 -400px;
+}
+/* sales */
+.sale{
+    display: flex;
+    margin-top: 20px;
+}
+.sale-img{
+    margin-left: 300px ;
+}
 
 
 
@@ -63,6 +108,37 @@ nav a{
         margin-left: -19px;
         font-size: 12px;
     }
+    /* become an seller */
+    .become-an-seller-img img{
+        height: 320px;
+        width: 320px;
+    }
+    .become-an-seller-text{
+        margin: 30px 0 0 0px;
+    }
+    .become-an-seller h1{
+        width: 350px;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #232f3E;
+        font-weight: 800;
+    }
+    .become-an-seller h6{
+        width: 200px;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #232f3E;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+    .become-an-seller-btn{
+        padding: 10px 22px;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .become-an-seller-img{
+        margin: 40px 0 0 -200px;
+    }
     
   }
   /* 
@@ -72,9 +148,7 @@ nav a{
 
 @media (min-width: 320px) and (max-width: 480px) {
   
-    button{
-        background-color: whitesmoke;
-    }
+   
     /* nav-xshop */
     .nav-xshop h4{
         font-family: Arial, Helvetica, sans-serif;
@@ -82,12 +156,56 @@ nav a{
         font-size: 12px;
     }
     /* sell-on-amazon */
+    .sell-on-amazon{
+        height: 110px;
+    }
     .sell-on-amazon h1{
         width: 175px;
     }
     .sell-on-amazon-btn{
         width: 154px;
     }
+    /* become an seller */
+    .become-an-seller{
+        flex-direction: column;
+    }
+    .become-an-seller-img img{
+        height: 320px;
+        width: 320px;
+    }
+    .become-an-seller-text{
+        margin: 0px 0 0 0px;
+    }
+    .become-an-seller h1{
+        width: 350px;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #232f3E;
+        font-weight: 800;
+        text-align: center;
+        margin: auto;
+    }
+    .become-an-seller h6{
+        width: 300px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #232f3E;
+        font-weight: 400;
+        text-align: center;
+        margin: 15px 45px;
+    }
+    .become-an-seller p{
+        text-align: center;
+    }
+    .become-an-seller-btn{
+        padding: 10px 22px;
+        font-size: 15px;
+        margin-left: 120px;
+    }
+    .become-an-seller-img{
+        margin: 10px 0 0 35px;
+    }
+    
     
   }
   
