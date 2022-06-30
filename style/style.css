@@ -120,7 +120,48 @@ nav a{
 .sale-text i{
     color: rgb(72, 72, 223);
 }
-
+/* finance section  */
+.finance{
+    display: flex;
+    padding: 50px 0 0 280px;
+}
+.finance-card{
+    width: 388px;
+    width: 408px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 40px;
+    margin-left: 25px;
+}
+.finance-card h1{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #232f3E;
+}
+.finance-card p{
+    font-size: 16px;
+    width: 302px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #232f3E;
+}
+/* steven-yang */
+.steven-yang{
+    display: flex;
+    margin-top: 60px;
+}
+.steven-yang-img{
+    margin-left: 300px;
+}
+.steven-yang-text{
+    margin-left: 100px;
+}
+.steven-yang-text h1{
+    width: 696px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
 
 
 
@@ -184,6 +225,33 @@ nav a{
     .sale-text h3{
         width: 680px;
     }
+    /* finance section  */
+    .finance{
+        padding: 0;
+    }
+    .finance-card{
+        width: 244px;
+        height: 430px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        margin-left: 20px;
+    }
+    .finance-card h1{
+        width: 152px;
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        color: #232f3E;
+    }
+    .finance-card p{
+        font-size: 14px;
+        width: 152px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        color: #232f3E;
+    }
+
+}
+/*
     
   }
   /* 
@@ -272,8 +340,33 @@ nav a{
         margin-top: 15px;
         line-height: 25px;
     }
+    /* finance section  */
+    .finance{
+        flex-direction: column;
+        padding: 0;
+    }
+    .finance-card{
+        width: 347px;
+        height: 330px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 40px;
+        margin-left: 15px;
+    }
+    .finance-card h1{
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        color: #232f3E;
+    }
+    .finance-card p{
+        font-size: 16px;
+        width: 302px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        color: #232f3E;
+    }
+        
     
     
     
   }
-  
