@@ -162,8 +162,80 @@ nav a{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
 }
-
-
+.steven-yang-info{
+    display: flex;
+    margin-top: 20px;
+}
+.steven-yang-info h2{
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.steven-yang-info p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* learn more */
+.learn-more{
+    width: 1264px;
+    height: 444px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    margin-top: 20px;
+}
+.learn-more h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 0 30px 0;
+}
+.learn-more p{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0 0 40px;
+}
+.learn-more-p{
+    display: flex;
+    justify-content: space-around;
+}
+/* Introduction to ecommerce selling */
+.introduction-cards{
+    display: flex;
+    margin-left: 300px;
+}
+.intriduction-h1{
+    text-align: center;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #232f3E;
+    padding: 100px 0;
+}
+.introduction-card{
+    width: 384px;
+    height: 430px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    padding: 40px;
+    margin: 30px;
+}
+.introduction-card h1{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    width: 302px;
+}
+.introduction-card p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    width: 302px;
+}
 
 /* 
   ##Device = Tablets, Ipads (portrait)
@@ -228,12 +300,13 @@ nav a{
     /* finance section  */
     .finance{
         padding: 0;
+        margin-left: 30px;
     }
     .finance-card{
         width: 244px;
         height: 430px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-        margin-left: 20px;
+        margin-left: 5px;
     }
     .finance-card h1{
         width: 152px;
@@ -249,6 +322,56 @@ nav a{
         font-weight: 400;
         color: #232f3E;
     }
+    /* steven-yang */
+    .steven-yang{
+        margin-top: 60px;
+    }
+    .steven-yang-img{
+        margin-left: 0px;
+    }
+    .steven-yang-text{
+        margin-left: 30px;
+    }
+    .steven-yang-text h1{
+        width: 435px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+    }
+    /* learn-more */
+    .learn-more{
+        width: 700px;
+        height: 558px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    /* Introduction to ecommerce selling */
+    .introduction-cards{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .introduction-card{
+        width: 772px;
+        height: 315px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 8px;
+        padding: 40px;
+        margin: 30px;
+    }
+    .introduction-card h1{
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        width: 302px;
+    }
+    .introduction-card p{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        width: 700px;
+    }
+
 
 }
 /*
@@ -365,6 +488,67 @@ nav a{
         font-weight: 400;
         color: #232f3E;
     }
+     /* steven-yang */
+     .steven-yang{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .steven-yang-img{
+        margin-left: 0px;
+    }
+    .steven-yang-text{
+        margin-left: 30px;
+    }
+    .steven-yang-text h1{
+        width: 300px;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+    }
+    /* .learn-more */
+    .learn-more h1{
+        font-size: 24px;
+        padding: 20px;
+    }
+    .learn-more{
+        width: 330px;
+        height: 1050px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .learn-more-p{
+        flex-direction: column;
+    }
+    /* Introduction to ecommerce selling */
+    .introduction-cards{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .intriduction-h1{
+        font-size: 24px;
+    }
+    .introduction-card{
+        width: 330px;
+        height: 379px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 8px;
+        padding: 40px;
+        margin: 30px;
+    }
+    .introduction-card h1{
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        width: 302px;
+    }
+    .introduction-card p{
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        width: 264px;
+    }
+
         
     
     
