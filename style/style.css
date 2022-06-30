@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+nav{
+    background-color: #111111;
+    border-radius: none;
+}
+nav a{
+    color: whitesmoke;
+}
+/* Nav-xshop  */
+.nav-xshop{
+ height: 40px;
+ background-color: #082020;
+ color: whitesmoke;
+ margin-top: -21px;
+ display: flex;
+ padding-top: 3px;
+}
+.nav-xshop h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    font-size: 15px;
+}
+/* sell-on-amazon */
+.sell-on-amazon{
+    padding-top: 40px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.sell-on-amazon h1{
+    font-size: 24px;
+    font-weight: 900;
+    color: #232f3E;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+}
+.sell-on-amazon-btn{
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #232f3E;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 100px;
+    font-weight: 800;
+    background-color: #ff9900;
+    border: none;
+}
+
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    nav a{
+        margin-left: -19px;
+        font-size: 12px;
+    }
+    
+  }
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    button{
+        background-color: whitesmoke;
+    }
+    /* nav-xshop */
+    .nav-xshop h4{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 9px;
+        font-size: 12px;
+    }
+    /* sell-on-amazon */
+    .sell-on-amazon h1{
+        width: 175px;
+    }
+    .sell-on-amazon-btn{
+        width: 154px;
+    }
+    
+  }
+  
